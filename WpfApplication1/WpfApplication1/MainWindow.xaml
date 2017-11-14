@@ -7,6 +7,177 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="321" VerticalAlignment="Top" Width="518" Margin="0,0,0,-0.2">
+            <TabItem Header="Finanse">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True">
+                        <StackPanel Height="292" Width="513" Margin="0,0,-0.2,0">
+                            <Label x:Name="flabel" Content="Stan z ubiegłego roku" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Akan lubi małych chłopców" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel1" Content="Dochód z podatków" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel2" Content="Dochód z handlu" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel3" Content="Wydatki na socjał" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel4" Content="Pozostałe wydatki" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel5" Content="Inne" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel6" Content="Bilans" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel7" Content="Budżet" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel8" Content="Ludność" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel9" Content="Stabilność" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox9" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel10" Content="Wartość prowincji" Width="150" HorizontalAlignment="Left" Height="51.2"/>
+                            <DataGrid x:Name="dataGrid" Width="200">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn x:Name="controlled" Header="Kontrolowane" Width="100"/>
+                                    <DataGridTextColumn x:Name="overall" Header="Łącznie" Width="100"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <Label x:Name="flabel11" Content="Okupowane wp" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox10" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel12" Content="Punkty prosperity" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox11" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel13" Content="Uwagi" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox12" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel14" Content="Wysokość podatków" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox13" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel15" Content="Bogactwo" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox14" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel16" Content="Bazowy wzrost" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox15" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel17" Content="Poziom handlu" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox16" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel18" Content="Wartość handlu" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox17" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="flabel19" Content="Użyte środki transportu" Width="150" HorizontalAlignment="Left"/>
+                            <TextBox x:Name="ftextBox18" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Produkcja">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True">
+                        <StackPanel Height="292" Width="513" Margin="0,0,-0.2,0">
+                            <Label x:Name="plabel" Content="Pracujące fabryki" Height="51.2"/>
+                            <Label x:Name="plabel1" Content="Zbrojeniówka"/>
+                            <TextBox x:Name="ptextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel2" Content="Dobra konsumpcyjne"/>
+                            <TextBox x:Name="ptextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel3" Content="Zaopatrzenie"/>
+                            <TextBox x:Name="ptextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel4" Content="Pracujące elektrownie" Height="51.2"/>
+                            <Label x:Name="plabel5" Content="Cieplne"/>
+                            <TextBox x:Name="ptextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel6" Content="Naftowe"/>
+                            <TextBox x:Name="ptextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel7" Content="Słoneczne/wodne"/>
+                            <TextBox x:Name="ptextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel8" Content="Jądrowe"/>
+                            <TextBox x:Name="ptextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel9" Content="Priorytet przemysłowy"/>
+                            <ComboBox x:Name="pComboBox" HorizontalAlignment="Right" Width="200" Margin="0,0,20,0">
+                                <ComboBoxItem>Tak</ComboBoxItem>
+                                <ComboBoxItem>Nie</ComboBoxItem>
+                            </ComboBox>
+                            <Label x:Name="plabel10" Content="Wytwarzana energia"/>
+                            <TextBox x:Name="ptextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel11" Content="Eksport/import"/>
+                            <TextBox x:Name="ptextBox9" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="plabel12" Content="Wymagania przemysłu"/>
+                            <TextBox x:Name="ptextBox10" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <DataGrid x:Name="dataGrid1" Margin="0,25.6,0,0">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn x:Name="attribute" Header="Atrybut"/>
+                                    <DataGridTextColumn x:Name="supply" Header="Zaopatrzenie"/>
+                                    <DataGridTextColumn x:Name="coal" Header="Węgiel"/>
+                                    <DataGridTextColumn x:Name="metal" Header="Metale przemysłowe"/>
+                                    <DataGridTextColumn x:Name="crude" Header="Ropa naftowa"/>
+                                    <DataGridTextColumn x:Name="uran" Header="Uran"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <Label x:Name="plabel13" Content="Liczba magazynów"/>
+                            <TextBox x:Name="ptextBox11" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Socjał">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True">
+                        <StackPanel Height="292" Width="513" Margin="0,0,-0.2,0">
+                            <Label x:Name="slabel" Content="Pracujące ZN"/>
+                            <TextBox x:Name="stextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel1" Content="Koszty"/>
+                            <TextBox x:Name="stextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel2" Content="Wymagane dobra"/>
+                            <TextBox x:Name="stextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel3" Content="Produkowane dobra"/>
+                            <TextBox x:Name="stextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel4" Content="Eksportujemy za"/>
+                            <TextBox x:Name="stextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel5" Content="Oczekiwany socjał"/>
+                            <TextBox x:Name="stextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel6" Content="Wysokość socjału"/>
+                            <TextBox x:Name="stextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="slabel7" Content="Wymagana energia"/>
+                            <TextBox x:Name="stextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <DataGrid x:Name="dataGrid2" Margin="0,25.6,0,0">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn x:Name="discipline" Header="Dyscyplina"/>
+                                    <DataGridTextColumn x:Name="level" Header="Poziom"/>
+                                    <DataGridTextColumn x:Name="cost" Header="Koszt"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <Label x:Name="slabel8" Content="Łącznie"/>
+                            <TextBox x:Name="stextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Wojsko">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True">
+                        <StackPanel Height="292" Width="513" Margin="0,0,-0.2,0">
+                            <Label x:Name="wlabel" Content="Pobór"/>
+                            <TextBox x:Name="wtextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="wlabel1" Content="Maks. liczba żołnierzy"/>
+                            <TextBox x:Name="wtextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="wlabel2" Content="Poziom wywiadu"/>
+                            <TextBox x:Name="wtextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <Label x:Name="wlabel3" Content="Koszty"/>
+                            <TextBox x:Name="wtextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                            <DataGrid x:Name="dataGrid3" Margin="0,25.6,0,0">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn x:Name="militaryType" Header="Typ jednostki"/>
+                                    <DataGridTextColumn x:Name="active" Header="Aktywne"/>
+                                    <DataGridTextColumn x:Name="ready" Header="W gotowości"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <Label x:Name="wlabel4" Content="Łącznie"/>
+                            <TextBox x:Name="wtextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Width="200" Margin="0,0,20,0"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Modyfikatory">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True">
+                        <DataGrid x:Name="dataGrid4" Height="292" Width="513" Margin="0,0,-0.2,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn x:Name="bonus" Header="Nazwa bonusu"/>
+                                <DataGridTextColumn x:Name="percentage" Header="Procent"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
