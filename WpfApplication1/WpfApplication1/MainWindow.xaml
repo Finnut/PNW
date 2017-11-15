@@ -7,145 +7,145 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="900" Width="1600">
     <Grid>
-        <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True" Width="1580" Margin="0,0,3.6,0.4">
-            <Grid>
-                <Label x:Name="flabel" Content="Stan z ubiegłego roku" HorizontalAlignment="Left" Height="30" Margin="10,29,0,821"/>
-                <TextBox x:Name="ftextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Akan lubi małych chłopców" Height="30" Width="200" Margin="0,29,1182.2,821"/>
-                <Label x:Name="flabel1" Content="Dochód z podatków" Height="30" HorizontalAlignment="Left" Margin="10,79,0,771"/>
-                <TextBox x:Name="ftextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,79,1182.2,771"/>
-                <Label x:Name="flabel2" Content="Dochód z handlu" Height="30" HorizontalAlignment="Left" Margin="10,128,0,722"/>
-                <TextBox x:Name="ftextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,1182.2,722"/>
-                <Label x:Name="flabel3" Content="Wydatki na socjał" Height="30" HorizontalAlignment="Left" Margin="10,181,0,669"/>
-                <TextBox x:Name="ftextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,181,1182.2,669"/>
-                <Label x:Name="flabel4" Content="Pozostałe wydatki" Height="30" HorizontalAlignment="Left" Margin="10,234,0,616"/>
-                <TextBox x:Name="ftextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,234,1182.2,616"/>
-                <Label x:Name="flabel5" Content="Inne" Height="30" HorizontalAlignment="Left" Margin="10,283,0,567"/>
-                <TextBox x:Name="ftextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,283,1182.2,567"/>
-                <Label x:Name="flabel6" Content="Bilans" Height="30" HorizontalAlignment="Left" Margin="10,326,0,524"/>
-                <TextBox x:Name="ftextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,326,1182.2,524"/>
-                <Label x:Name="flabel7" Content="Budżet" Height="30" HorizontalAlignment="Left" Margin="10,377,0,473"/>
-                <TextBox x:Name="ftextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,377,1182.2,473"/>
-                <Label x:Name="flabel8" Content="Ludność" Height="30" HorizontalAlignment="Left" Margin="10,421,0,429"/>
-                <TextBox x:Name="ftextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,421,1182.2,429"/>
-                <Label x:Name="flabel9" Content="Stabilność" Height="30" HorizontalAlignment="Left" Margin="10,458,0,392"/>
-                <TextBox x:Name="ftextBox9" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,458,1182.2,392"/>
-                <Label x:Name="flabel10" Content="Wartość prowincji" Height="30" HorizontalAlignment="Left" Margin="10,488,0,362"/>
-                <DataGrid x:Name="dataGrid" Width="200" Height="50" Margin="73,528,1290.2,302">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn x:Name="controlled" Header="Kontrolowane" Width="100"/>
-                        <DataGridTextColumn x:Name="overall" Header="Łącznie" Width="100"/>
-                    </DataGrid.Columns>
-                </DataGrid>
-                <Label x:Name="flabel11" Content="Okupowane wp" Height="30" HorizontalAlignment="Left" Margin="10,592,0,258"/>
-                <TextBox x:Name="ftextBox10" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,592,1182.2,258"/>
-                <Label x:Name="flabel12" Content="Punkty prosperity" Height="30" HorizontalAlignment="Left" Margin="10,642,0,208"/>
-                <TextBox x:Name="ftextBox11" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,642,1182.2,208"/>
-                <Label x:Name="flabel13" Content="Uwagi" Height="30" HorizontalAlignment="Left" Margin="10,691,0,159"/>
-                <TextBox x:Name="ftextBox12" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,691,1182.2,159"/>
-                <Label x:Name="flabel14" Content="Wysokość podatków" Height="30" HorizontalAlignment="Left" Margin="0,740,0,110"/>
-                <TextBox x:Name="ftextBox13" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,740,1182.2,110"/>
-                <Label x:Name="flabel15" Content="Bogactwo" Height="30" HorizontalAlignment="Left" Margin="10,790,0,60"/>
-                <TextBox x:Name="ftextBox14" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,790,1182.2,60"/>
-                <Label x:Name="flabel16" Content="Bazowy wzrost" Height="30" HorizontalAlignment="Left" Margin="10,825,0,25"/>
-                <TextBox x:Name="ftextBox15" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,825,1182.2,25"/>
-                <Label x:Name="flabel17" Content="Poziom handlu" Height="30" HorizontalAlignment="Left" Margin="420,29,0,821"/>
-                <TextBox x:Name="ftextBox16" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,29,780.2,821"/>
-                <Label x:Name="flabel18" Content="Wartość handlu" Height="30" HorizontalAlignment="Left" Margin="420,79,0,771"/>
-                <TextBox x:Name="ftextBox17" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,79,780.2,771"/>
-                <Label x:Name="flabel19" Content="Użyte środki transportu" Height="30" HorizontalAlignment="Left" Margin="420,128,0,722"/>
-                <TextBox x:Name="ftextBox18" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,780.2,722"/>
+            <ScrollViewer HorizontalAlignment="Right" CanContentScroll="True" Width="1580" Margin="0,0,3.6,0.4">
+                <Grid>
+                    <Label x:Name="flabel" Content="Stan z ubiegłego roku" HorizontalAlignment="Left" Height="30" Margin="10,29,0,821"/>
+                    <TextBox x:Name="ftextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Akan lubi małych chłopców" Height="30" Width="200" Margin="0,29,1182.2,821" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel1" Content="Dochód z podatków" Height="30" HorizontalAlignment="Left" Margin="10,79,0,771"/>
+                <TextBox x:Name="ftextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,79,1182.2,771" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel2" Content="Dochód z handlu" Height="30" HorizontalAlignment="Left" Margin="10,128,0,722"/>
+                <TextBox x:Name="ftextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,1182.2,722" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel3" Content="Wydatki na socjał" Height="30" HorizontalAlignment="Left" Margin="10,181,0,669"/>
+                <TextBox x:Name="ftextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,181,1182.2,669" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel4" Content="Pozostałe wydatki" Height="30" HorizontalAlignment="Left" Margin="10,234,0,616"/>
+                <TextBox x:Name="ftextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,234,1182.2,616" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel5" Content="Inne" Height="30" HorizontalAlignment="Left" Margin="10,283,0,567"/>
+                <TextBox x:Name="ftextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,283,1182.2,567" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel6" Content="Bilans" Height="30" HorizontalAlignment="Left" Margin="10,326,0,524"/>
+                <TextBox x:Name="ftextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,326,1182.2,524" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel7" Content="Budżet" Height="30" HorizontalAlignment="Left" Margin="10,377,0,473"/>
+                <TextBox x:Name="ftextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,377,1182.2,473" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel8" Content="Ludność" Height="30" HorizontalAlignment="Left" Margin="10,421,0,429"/>
+                <TextBox x:Name="ftextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,421,1182.2,429" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel9" Content="Stabilność" Height="30" HorizontalAlignment="Left" Margin="10,458,0,392"/>
+                <TextBox x:Name="ftextBox9" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,458,1182.2,392" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel10" Content="Wartość prowincji" Height="30" HorizontalAlignment="Left" Margin="10,488,0,362"/>
+                    <DataGrid x:Name="dataGrid" Width="200" Height="50" Margin="73,528,1290.2,302">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="controlled" Header="Kontrolowane" Width="100"/>
+                            <DataGridTextColumn x:Name="overall" Header="Łącznie" Width="100"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label x:Name="flabel11" Content="Okupowane wp" Height="30" HorizontalAlignment="Left" Margin="10,592,0,258"/>
+                <TextBox x:Name="ftextBox10" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,592,1182.2,258" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel12" Content="Punkty prosperity" Height="30" HorizontalAlignment="Left" Margin="10,642,0,208"/>
+                <TextBox x:Name="ftextBox11" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,642,1182.2,208" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel13" Content="Uwagi" Height="30" HorizontalAlignment="Left" Margin="10,691,0,159"/>
+                <TextBox x:Name="ftextBox12" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,691,1182.2,159" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel14" Content="Wysokość podatków" Height="30" HorizontalAlignment="Left" Margin="0,740,0,110"/>
+                <TextBox x:Name="ftextBox13" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,740,1182.2,110" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel15" Content="Bogactwo" Height="30" HorizontalAlignment="Left" Margin="10,790,0,60"/>
+                <TextBox x:Name="ftextBox14" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,790,1182.2,60" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel16" Content="Bazowy wzrost" Height="30" HorizontalAlignment="Left" Margin="10,825,0,25"/>
+                <TextBox x:Name="ftextBox15" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,825,1182.2,25" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel17" Content="Poziom handlu" Height="30" HorizontalAlignment="Left" Margin="420,29,0,821"/>
+                <TextBox x:Name="ftextBox16" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,29,780.2,821" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel18" Content="Wartość handlu" Height="30" HorizontalAlignment="Left" Margin="420,79,0,771"/>
+                <TextBox x:Name="ftextBox17" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,79,780.2,771" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="flabel19" Content="Użyte środki transportu" Height="30" HorizontalAlignment="Left" Margin="420,128,0,722"/>
+                <TextBox x:Name="ftextBox18" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,780.2,722" PreviewTextInput="TextBoxInputValidation"/>
 
-                <Label x:Name="plabel" Content="Pracujące fabryki" Height="30" Width="134.4" Margin="420,181,1009.2,669"/>
-                <Label x:Name="plabel1" Content="Zbrojeniówka" Height="30" Width="134.4" Margin="420,234,1009.2,616"/>
-                <TextBox x:Name="ptextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,234,780.2,616"/>
-                <Label x:Name="plabel2" Content="Dobra konsumpcyjne" Height="30" Width="134.4" Margin="420,283,1009.2,567"/>
-                <TextBox x:Name="ptextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,283,780.2,567"/>
-                <Label x:Name="plabel3" Content="Zaopatrzenie" Height="30" Width="134.4" Margin="420,326,1009.2,524"/>
-                <TextBox x:Name="ptextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,326,780.2,524"/>
-                <Label x:Name="plabel4" Content="Pracujące elektrownie" Height="30" Width="134.4" Margin="420,377,1009.2,473"/>
-                <Label x:Name="plabel5" Content="Cieplne" Height="30" Width="134.4" Margin="420,421,1009.2,429"/>
-                <TextBox x:Name="ptextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,421,780.2,429"/>
-                <Label x:Name="plabel6" Content="Naftowe" Height="30" Width="134.4" Margin="420,458,1009.2,392"/>
-                <TextBox x:Name="ptextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,458,780.2,392"/>
-                <Label x:Name="plabel7" Content="Słoneczne/wodne" Height="30" Width="134.4" Margin="420,500,1009.2,350"/>
-                <TextBox x:Name="ptextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,500,780.2,350"/>
-                <Label x:Name="plabel8" Content="Jądrowe" Height="30" Width="134.4" Margin="420,548,1009.2,302"/>
-                <TextBox x:Name="ptextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,548,780.2,302"/>
-                <Label x:Name="plabel9" Content="Priorytet przemysłowy" Height="30" Width="134.4" Margin="420,592,1009.2,258"/>
-                <ComboBox x:Name="pComboBox" HorizontalAlignment="Right" Height="30" Width="200" Margin="0,592,780.2,258">
-                    <ComboBoxItem>Tak</ComboBoxItem>
-                    <ComboBoxItem>Nie</ComboBoxItem>
-                </ComboBox>
-                <Label x:Name="plabel10" Content="Wytwarzana energia" Height="30" Width="134.4" Margin="420,642,1009.2,208"/>
-                <TextBox x:Name="ptextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,642,780.2,208"/>
-                <Label x:Name="plabel11" Content="Eksport/import" Height="30" Width="134.4" Margin="420,691,1009.2,159"/>
-                <TextBox x:Name="ptextBox9" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,691,780.2,159"/>
-                <Label x:Name="plabel12" Content="Wymagania przemysłu" Height="30" Width="134.4" Margin="420,740,1009.2,110"/>
-                <TextBox x:Name="ptextBox10" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,740,780.2,110"/>
-                <DataGrid x:Name="dataGrid1" Height="50" Width="200" Margin="849,29,514.2,801">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn x:Name="attribute" Header="Atrybut"/>
-                        <DataGridTextColumn x:Name="supply" Header="Zaopatrzenie"/>
-                        <DataGridTextColumn x:Name="coal" Header="Węgiel"/>
-                        <DataGridTextColumn x:Name="metal" Header="Metale przemysłowe"/>
-                        <DataGridTextColumn x:Name="crude" Header="Ropa naftowa"/>
-                        <DataGridTextColumn x:Name="uran" Header="Uran"/>
-                    </DataGrid.Columns>
-                </DataGrid>
-                <Label x:Name="plabel13" Content="Liczba magazynów" Height="30" Width="134.4" Margin="849,128,580.2,722"/>
-                <TextBox x:Name="ptextBox11" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,333.2,722"/>
+                    <Label x:Name="plabel" Content="Pracujące fabryki" Height="30" Width="134.4" Margin="420,181,1009.2,669"/>
+                    <Label x:Name="plabel1" Content="Zbrojeniówka" Height="30" Width="134.4" Margin="420,234,1009.2,616"/>
+                <TextBox x:Name="ptextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,234,780.2,616" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel2" Content="Dobra konsumpcyjne" Height="30" Width="134.4" Margin="420,283,1009.2,567"/>
+                <TextBox x:Name="ptextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,283,780.2,567" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel3" Content="Zaopatrzenie" Height="30" Width="134.4" Margin="420,326,1009.2,524"/>
+                <TextBox x:Name="ptextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,326,780.2,524" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel4" Content="Pracujące elektrownie" Height="30" Width="134.4" Margin="420,377,1009.2,473"/>
+                    <Label x:Name="plabel5" Content="Cieplne" Height="30" Width="134.4" Margin="420,421,1009.2,429"/>
+                <TextBox x:Name="ptextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,421,780.2,429" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel6" Content="Naftowe" Height="30" Width="134.4" Margin="420,458,1009.2,392"/>
+                <TextBox x:Name="ptextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,458,780.2,392" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel7" Content="Słoneczne/wodne" Height="30" Width="134.4" Margin="420,500,1009.2,350"/>
+                <TextBox x:Name="ptextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,500,780.2,350" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel8" Content="Jądrowe" Height="30" Width="134.4" Margin="420,548,1009.2,302"/>
+                <TextBox x:Name="ptextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,548,780.2,302" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel9" Content="Priorytet przemysłowy" Height="30" Width="134.4" Margin="420,592,1009.2,258"/>
+                    <ComboBox x:Name="pComboBox" HorizontalAlignment="Right" Height="30" Width="200" Margin="0,592,780.2,258">
+                        <ComboBoxItem>Tak</ComboBoxItem>
+                        <ComboBoxItem>Nie</ComboBoxItem>
+                    </ComboBox>
+                    <Label x:Name="plabel10" Content="Wytwarzana energia" Height="30" Width="134.4" Margin="420,642,1009.2,208"/>
+                <TextBox x:Name="ptextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,642,780.2,208" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel11" Content="Eksport/import" Height="30" Width="134.4" Margin="420,691,1009.2,159"/>
+                <TextBox x:Name="ptextBox9" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,691,780.2,159" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="plabel12" Content="Wymagania przemysłu" Height="30" Width="134.4" Margin="420,740,1009.2,110"/>
+                <TextBox x:Name="ptextBox10" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,740,780.2,110" PreviewTextInput="TextBoxInputValidation"/>
+                    <DataGrid x:Name="dataGrid1" Height="50" Width="200" Margin="849,29,514.2,801">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="attribute" Header="Atrybut"/>
+                            <DataGridTextColumn x:Name="supply" Header="Zaopatrzenie"/>
+                            <DataGridTextColumn x:Name="coal" Header="Węgiel"/>
+                            <DataGridTextColumn x:Name="metal" Header="Metale przemysłowe"/>
+                            <DataGridTextColumn x:Name="crude" Header="Ropa naftowa"/>
+                            <DataGridTextColumn x:Name="uran" Header="Uran"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label x:Name="plabel13" Content="Liczba magazynów" Height="30" Width="134.4" Margin="849,128,580.2,722"/>
+                <TextBox x:Name="ptextBox11" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,333.2,722" PreviewTextInput="TextBoxInputValidation"/>
 
-                <Label x:Name="slabel" Content="Pracujące ZN" Height="30" Width="134.4" Margin="849,181,580.2,669"/>
-                <TextBox x:Name="stextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,181,333.2,669"/>
-                <Label x:Name="slabel1" Content="Koszty" Height="30" Width="134.4" Margin="849,234,580.2,616"/>
-                <TextBox x:Name="stextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,234,333.2,616"/>
-                <Label x:Name="slabel2" Content="Wymagane dobra" Height="30" Width="134.4" Margin="849,283,580.2,567"/>
-                <TextBox x:Name="stextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,283,333.2,567"/>
-                <Label x:Name="slabel3" Content="Produkowane dobra" Height="30" Width="134.4" Margin="849,326,580.2,524"/>
-                <TextBox x:Name="stextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,326,333.2,524"/>
-                <Label x:Name="slabel4" Content="Eksportujemy za" Height="30" Width="134.4" Margin="849,377,580.2,473"/>
-                <TextBox x:Name="stextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,377,333.2,473"/>
-                <Label x:Name="slabel5" Content="Oczekiwany socjał" Height="30" Width="134.4" Margin="849,421,580.2,429"/>
-                <TextBox x:Name="stextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,421,333.2,429"/>
-                <Label x:Name="slabel6" Content="Wysokość socjału" Height="30" Width="134.4" Margin="849,458,580.2,392"/>
-                <TextBox x:Name="stextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,458,333.2,392"/>
-                <Label x:Name="slabel7" Content="Wymagana energia" Height="30" Width="134.4" Margin="849,500,580.2,350"/>
-                <TextBox x:Name="stextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,500,333.2,350"/>
-                <DataGrid x:Name="dataGrid2" Height="50" Width="200" Margin="917,548,446.2,282">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn x:Name="discipline" Header="Dyscyplina"/>
-                        <DataGridTextColumn x:Name="level" Header="Poziom"/>
-                        <DataGridTextColumn x:Name="cost" Header="Koszt"/>
-                    </DataGrid.Columns>
-                </DataGrid>
-                <Label x:Name="slabel8" Content="Łącznie" Height="30" Width="134.4" Margin="849,642,580.2,208"/>
-                <TextBox x:Name="stextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,642,333.2,208"/>
+                    <Label x:Name="slabel" Content="Pracujące ZN" Height="30" Width="134.4" Margin="849,181,580.2,669"/>
+                <TextBox x:Name="stextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,181,333.2,669" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel1" Content="Koszty" Height="30" Width="134.4" Margin="849,234,580.2,616"/>
+                <TextBox x:Name="stextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,234,333.2,616" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel2" Content="Wymagane dobra" Height="30" Width="134.4" Margin="849,283,580.2,567"/>
+                <TextBox x:Name="stextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,283,333.2,567" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel3" Content="Produkowane dobra" Height="30" Width="134.4" Margin="849,326,580.2,524"/>
+                <TextBox x:Name="stextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,326,333.2,524" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel4" Content="Eksportujemy za" Height="30" Width="134.4" Margin="849,377,580.2,473"/>
+                <TextBox x:Name="stextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,377,333.2,473" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel5" Content="Oczekiwany socjał" Height="30" Width="134.4" Margin="849,421,580.2,429"/>
+                <TextBox x:Name="stextBox5" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,421,333.2,429" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel6" Content="Wysokość socjału" Height="30" Width="134.4" Margin="849,458,580.2,392"/>
+                <TextBox x:Name="stextBox6" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,458,333.2,392" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="slabel7" Content="Wymagana energia" Height="30" Width="134.4" Margin="849,500,580.2,350"/>
+                <TextBox x:Name="stextBox7" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,500,333.2,350" PreviewTextInput="TextBoxInputValidation"/>
+                    <DataGrid x:Name="dataGrid2" Height="50" Width="200" Margin="917,548,446.2,282">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="discipline" Header="Dyscyplina"/>
+                            <DataGridTextColumn x:Name="level" Header="Poziom"/>
+                            <DataGridTextColumn x:Name="cost" Header="Koszt"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label x:Name="slabel8" Content="Łącznie" Height="30" Width="134.4" Margin="849,642,580.2,208"/>
+                <TextBox x:Name="stextBox8" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,642,333.2,208" PreviewTextInput="TextBoxInputValidation"/>
 
-                <Label x:Name="wlabel" Content="Pobór" Height="30" Width="134.4" Margin="849,691,580.2,159"/>
-                <TextBox x:Name="wtextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,691,333.2,159"/>
-                <Label x:Name="wlabel1" Content="Maks. liczba żołnierzy" Height="30" Width="134.4" Margin="849,740,580.2,110"/>
-                <TextBox x:Name="wtextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,740,333.2,110"/>
-                <Label x:Name="wlabel2" Content="Poziom wywiadu" Height="30" Width="134.4" Margin="849,790,580.2,60"/>
-                <TextBox x:Name="wtextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,790,333.2,60"/>
-                <Label x:Name="wlabel3" Content="Koszty" Height="30" Width="134.4" Margin="849,825,580.2,25"/>
-                <TextBox x:Name="wtextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,825,333.2,25"/>
-                <DataGrid x:Name="dataGrid3" Height="50" Width="200" Margin="1343,29,20.2,801">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn x:Name="militaryType" Header="Typ jednostki"/>
-                        <DataGridTextColumn x:Name="active" Header="Aktywne"/>
-                        <DataGridTextColumn x:Name="ready" Header="W gotowości"/>
-                    </DataGrid.Columns>
-                </DataGrid>
-                <Label x:Name="wlabel4" Content="Łącznie" Height="30" Width="134.4" Margin="1255,128,173.2,722"/>
-                <TextBox x:Name="wtextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,0.2,722"/>
+                    <Label x:Name="wlabel" Content="Pobór" Height="30" Width="134.4" Margin="849,691,580.2,159"/>
+                <TextBox x:Name="wtextBox" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,691,333.2,159" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="wlabel1" Content="Maks. liczba żołnierzy" Height="30" Width="134.4" Margin="849,740,580.2,110"/>
+                <TextBox x:Name="wtextBox1" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,740,333.2,110" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="wlabel2" Content="Poziom wywiadu" Height="30" Width="134.4" Margin="849,790,580.2,60"/>
+                <TextBox x:Name="wtextBox2" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,790,333.2,60" PreviewTextInput="TextBoxInputValidation"/>
+                    <Label x:Name="wlabel3" Content="Koszty" Height="30" Width="134.4" Margin="849,825,580.2,25"/>
+                <TextBox x:Name="wtextBox3" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,825,333.2,25" PreviewTextInput="TextBoxInputValidation"/>
+                    <DataGrid x:Name="dataGrid3" Height="50" Width="200" Margin="1343,29,20.2,801">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="militaryType" Header="Typ jednostki"/>
+                            <DataGridTextColumn x:Name="active" Header="Aktywne"/>
+                            <DataGridTextColumn x:Name="ready" Header="W gotowości"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label x:Name="wlabel4" Content="Łącznie" Height="30" Width="134.4" Margin="1255,128,173.2,722"/>
+                <TextBox x:Name="wtextBox4" HorizontalAlignment="Right" TextWrapping="Wrap" Text="Wpisz wartość" Height="30" Width="200" Margin="0,128,0.2,722" PreviewTextInput="TextBoxInputValidation"/>
 
-                <DataGrid x:Name="dataGrid4" Height="200" Width="200" Margin="1343,207,20.2,473">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn x:Name="bonus" Header="Nazwa bonusu"/>
-                        <DataGridTextColumn x:Name="percentage" Header="Procent"/>
-                    </DataGrid.Columns>
-                </DataGrid>
-            </Grid>
-        </ScrollViewer>
-    </Grid>
+                    <DataGrid x:Name="dataGrid4" Height="200" Width="200" Margin="1343,207,20.2,473">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="bonus" Header="Nazwa bonusu"/>
+                            <DataGridTextColumn x:Name="percentage" Header="Procent"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
 </Window>

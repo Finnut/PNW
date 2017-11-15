@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Text.RegularExpressions;
 
 namespace WpfApplication1
 {
@@ -23,6 +24,12 @@ namespace WpfApplication1
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void TextBoxInputValidation (object sender, TextCompositionEventArgs e)
+        {
+            Regex expression = new Regex("[^0-9]+");
+            e.Handled = expression.IsMatch(e.Text);
         }
     }
 }
